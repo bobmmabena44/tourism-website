@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gallery | Lesotho Horizons</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .top-strip {
+            background: #071a4d;
+            color: #cdd9f5;
+            padding: 8px 0;
+            font-size: .72rem;
+            letter-spacing: .05em;
+        }
+
+        .top-strip a {
+            color: #8fb4ff;
+            font-weight: 800;
+            margin-left: 8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top site-nav">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <span class="brand-mark">LH</span>
+                    Lesotho <strong>Horizons</strong>
+                </a>
+
+                <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#mainNav"
+                    aria-controls="mainNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="mainNav">
+                    <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="destinations.html">Destinations</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="gallery.html">Gallery</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <button id="themeToggle"
+                                class="btn theme-btn"
+                                type="button"
+                                aria-label="Toggle dark mode">
+                                ◐
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main">
+
+        <div class="container-fluid px-0">
+            <div class="top-strip">
+                <div class="container">
+                    2026 TRAVEL EDIT • Discover the Mountain Kingdom
+                    <a href="destinations.html">Explore the guide →</a>
+                </div>
+            </div>
+        </div>
+
+        <section class="page-hero">
+            <div class="container">
+                <span class="eyebrow">PHOTO GALLERY</span>
+
+                <h1>See the Mountain Kingdom.</h1>
+
+                <p>
+                    Explore the beauty, culture and landscapes of Lesotho.
+                    Click any image to open the interactive gallery preview.
+                </p>
+            </div>
+        </section>
+
+        <section class="section-pad">
+            <div class="container">
+
+                <div class="gallery-grid">
+
+                    <button class="gallery-item tall"
+                        type="button"
+                        data-bs-toggle="modal"
+                        data-bs-target="#galleryModal"
+                        data-image="https://www.ktc.co.th/upload/pub/media/Travel-Story/Africa/lesotho/lesotho-travel-2-800x600.webp"
+                        data-title="Highlands near Semonkong">
+
+                        <img src="https://www.ktc.co.th/upload/pub/media/Travel-Story/Africa/lesotho/lesotho-travel-2-800x600.webp"
+                            alt="Highlands near Semonkong, Lesotho">
+                    </button>
+
+                    <button class="gallery-item"
+                        type="button"
+                        data-bs-toggle="modal"
+                        data-bs-target="#galleryModal"
+                        data-image="https://www.eyeseeafrica.net/wp-content/uploads/2016/03/Semonkong.jpg"
+                        data-title="Maletsunyane Falls">
+
+                        <img src="https://www.eyeseeafrica.net/wp-content/uploads/2016/03/Semonkong.jpg"
+                            alt="Maletsunyane Falls, Lesotho">
+                    </button>
+
+                    <button class="gallery-item"
+                        type="button"
+                        data-bs-toggle="modal"
+                        data-bs-target="#galleryModal"
+                        data-image="https://www.ktc.co.th/upload/pub/media/Travel-Story/Africa/lesotho/lesotho-travel-2-800x600.webp"
+                        data-title="Highland Trail">
+
+                        <img src="https://www.ktc.co.th/upload/pub/media/Travel-Story/Africa/lesotho/lesotho-travel-2-800x600.webp"
+                            alt="Highland landscape in Lesotho">
+                    </button>
+
+                    <button class="gallery-item wide"
+                        type="button"
+                        data-bs-toggle="modal"
+                        data-bs-target="#galleryModal"
+                        data-image="https://www.earthtrekkers.com/wp-content/uploads/2016/04/Looking-down-on-Sani-Pass.jpg.webp"
+                        data-title="Sani Pass Road">
+
+                        <img src="https://www.earthtrekkers.com/wp-content/uploads/2016/04/Looking-down-on-Sani-Pass.jpg.webp"
+                            alt="Mountain road at Sani Pass">
+                    </button>
+
+                    <button class="gallery-item"
+                        type="button"
+                        data-bs-toggle="modal"
+                        data-bs-target="#galleryModal"
+                        data-image="https://images.lonelyplanetitalia.it/uploads/cP5hZuJk5D5GfPQz1Q04BzHY0DEdrELM.png?p=slider&q=80&s=8d363b38b7f71a92e12fe496afeb93ba"
+                        data-title="Basotho Pony Trek">
+
+                        <img src="https://images.lonelyplanetitalia.it/uploads/cP5hZuJk5D5GfPQz1Q04BzHY0DEdrELM.png?p=slider&q=80&s=8d363b38b7f71a92e12fe496afeb93ba"
+                            alt="Rider on a Basotho pony">
+                    </button>
+
+                    <button class="gallery-item"
+                        type="button"
+                        data-bs-toggle="modal"
+                        data-bs-target="#galleryModal"
+                        data-image="images/thaba-bosiu2.jpg"
+                        data-title="Thaba Bosiu Plateau">
+
+                        <img src="images/thaba-bosiu2.jpg"
+                            alt="Thaba Bosiu Plateau in Lesotho">
+                    </button>
+
+                    <button class="gallery-item"
+                        type="button"
+                        data-bs-toggle="modal"
+                        data-bs-target="#galleryModal"
+                        data-image="https://pbs.twimg.com/media/F8ferNXWwAEbmHA.jpg"
+                        data-title="Basotho Blanket and Mokorotlo">
+
+                        <img src="https://pbs.twimg.com/media/F8ferNXWwAEbmHA.jpg"
+                            alt="Basotho traditional blanket and mokorotlo hat">
+                    </button>
+
+                </div>
+            </div>
+        </section>
+
+        <div class="modal fade"
+            id="galleryModal"
+            tabindex="-1"
+            aria-labelledby="galleryTitle"
+            aria-hidden="true">
+
+            <div class="modal-dialog modal-xl modal-dialog-centered">
+                <div class="modal-content gallery-modal">
+
+                    <div class="modal-header border-0">
+                        <h2 class="modal-title" id="galleryTitle">Gallery</h2>
+
+                        <button type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close">
+                        </button>
+                    </div>
+
+                    <div class="modal-body pt-0">
+                        <img id="galleryPreview"
+                            src=""
+                            alt=""
+                            class="img-fluid rounded-4">
+
+                        <p id="galleryCaption" class="mt-3 mb-0"></p>
+                    </div>
+
+                    <div class="modal-footer border-0 justify-content-between">
+                        <button id="galleryPrev"
+                            class="btn btn-outline-primary"
+                            type="button">
+                            &larr; Previous
+                        </button>
+
+                        <button id="galleryNext"
+                            class="btn btn-outline-primary"
+                            type="button">
+                            Next &rarr;
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row g-4">
+
+                <div class="col-lg-5">
+                    <a class="navbar-brand footer-brand" href="index.html">
+                        <span class="brand-mark">LH</span>
+                        Lesotho Horizons
+                    </a>
+
+                    <p>
+                        Explore the Mountain Kingdom with curiosity,
+                        respect and confidence.
+                    </p>
+                </div>
+
+                <div class="col-6 col-lg-2">
+                    <h4>Explore</h4>
+                    <a href="about.html">About</a>
+                    <a href="destinations.html">Destinations</a>
+                    <a href="gallery.html">Gallery</a>
+                </div>
+
+                <div class="col-6 col-lg-2">
+                    <h4>Plan</h4>
+                    <a href="contact.html">Contact</a>
+                    <a href="contact.html#booking">Booking</a>
+                </div>
+
+                <div class="col-lg-3">
+                    <h4>Quick Help</h4>
+                    <p>
+                        +266 5000 0000<br>
+                        hello@lesothorizons.com
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                © 2026 Lesotho Horizons. Academic project for Web Design 1.
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="script.js"></script>
+
+    <script>
+        const galleryButtons = Array.from(
+            document.querySelectorAll(".gallery-item")
+        );
+
+        const galleryModal = document.getElementById("galleryModal");
+        const galleryPreview = document.getElementById("galleryPreview");
+        const galleryTitle = document.getElementById("galleryTitle");
+        const galleryCaption = document.getElementById("galleryCaption");
+        const galleryPrev = document.getElementById("galleryPrev");
+        const galleryNext = document.getElementById("galleryNext");
+
+        let currentImageIndex = 0;
+
+        function showGalleryImage(index) {
+            currentImageIndex =
+                (index + galleryButtons.length) % galleryButtons.length;
+
+            const selectedButton = galleryButtons[currentImageIndex];
+            const imagePath = selectedButton.dataset.image;
+            const imageTitle = selectedButton.dataset.title;
+
+            galleryPreview.src = imagePath;
+            galleryPreview.alt = imageTitle;
+            galleryTitle.textContent = imageTitle;
+            galleryCaption.textContent = imageTitle;
+        }
+
+        galleryButtons.forEach(function (button, index) {
+            button.addEventListener("click", function () {
+                showGalleryImage(index);
+            });
+        });
+
+        galleryPrev.addEventListener("click", function () {
+            showGalleryImage(currentImageIndex - 1);
+        });
+
+        galleryNext.addEventListener("click", function () {
+            showGalleryImage(currentImageIndex + 1);
+        });
+
+        galleryModal.addEventListener("keydown", function (event) {
+            if (event.key === "ArrowLeft") {
+                showGalleryImage(currentImageIndex - 1);
+            }
+
+            if (event.key === "ArrowRight") {
+                showGalleryImage(currentImageIndex + 1);
+            }
+        });
+    </script>
+
+</body>
+</html>
